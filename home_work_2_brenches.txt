@@ -1,0 +1,19 @@
+Home work for GitHub )
+1. На локальном репозитории сделать ветки для:
+- Postman - get branch Postman
+- Jmeter - get branch Jmeter
+- CheckLists - get branch CheckList
+- Bag Reports - get branch BagReport
+- SQL - get branch SQL
+- Charles - get branch Charles
+- Mobile testing - get branch MobileTesting
+
+2. Запушить все ветки на внешний репозиторий - git push origin --all
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - touch bug_reports.txt , vi bug_reports.txt
+4. Запушить структуру багрепорта на внешний репозиторий - git add bug_reports.txt , git commit -m "commit" , git push
+5. Вмержить ветку Bag Reports в Main - 
+6. Запушить main на внешний репозиторий.
+7. В ветке CheckLists набросать структуру чек листа.
+8. Запушить структуру на внешний репозиторий
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main
