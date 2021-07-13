@@ -15,5 +15,5 @@ Home work for GitHub )
 6. Запушить main на внешний репозиторий. - git push -u origin BagReports
 7. В ветке CheckLists набросать структуру чек листа. - git switch CheckList , vi check_list_struckture.txt , git add check_list_struckture.txt , git commit -m "add struckture check list"
 8. Запушить структуру на внешний репозиторий - git push
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - На внешнем репозитории выбрать раздел с ветками, нпротив ветки CheckList нажать New pull request, далее выбрать unified
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - На внешнем репозитории выбрать раздел с ветками, нпротив ветки CheckList нажать New pull request
 10. Синхронизировать Внешнюю и Локальную ветки Main - git switch main , git pull
