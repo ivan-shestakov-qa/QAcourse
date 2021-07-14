@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "78958ef6-a809-4da1-8d93-ab84f89ad3ed",
+		"name": "Group_20",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EP_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}get_method?name=str&age=int",
+					"host": [
+						"{{Url}}get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "str"
+						},
+						{
+							"key": "age",
+							"value": "int"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Vanya",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "37",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "600",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{Url}}user_info_3",
+					"host": [
+						"{{Url}}user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}object_info_1?name=Vaniy&age=37&weight=74",
+					"host": [
+						"{{Url}}object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Vaniy"
+						},
+						{
+							"key": "age",
+							"value": "37"
+						},
+						{
+							"key": "weight",
+							"value": "74"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}object_info_2?name=Vanya&age=37&salary=400",
+					"host": [
+						"{{Url}}object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Vanya"
+						},
+						{
+							"key": "age",
+							"value": "37"
+						},
+						{
+							"key": "salary",
+							"value": "400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}object_info_3?name=Vanya&age=37&salary=600",
+					"host": [
+						"{{Url}}object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Vanya"
+						},
+						{
+							"key": "age",
+							"value": "37"
+						},
+						{
+							"key": "salary",
+							"value": "600"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}object_info_4?name=Vanya&age=37&salary=600",
+					"host": [
+						"{{Url}}object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Vanya"
+						},
+						{
+							"key": "age",
+							"value": "37"
+						},
+						{
+							"key": "salary",
+							"value": "600"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Vanya",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "37",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "400",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{Url}}user_info_2",
+					"host": [
+						"{{Url}}user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
