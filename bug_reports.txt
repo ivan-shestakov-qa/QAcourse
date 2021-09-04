@@ -1,0 +1,9 @@
+1) Id
+2) Summary
+3) Severity
+4) Prioriti
+5) Steps to Reproduce
+6) Result
+7) Expected Resualt
+8) Attachment
+10)
